@@ -1,0 +1,24 @@
+.drag-n-drop {
+  gap: 0.5rem;
+  display: flex;
+  max-width: 100vw;
+  height: 100%;
+  align-items: start;
+}
+
+.add-group-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.add-group-container p {
+  margin: 0px;
+}
+.add-group-container i {
+  font-size: 25px;
+  cursor: pointer;
+}

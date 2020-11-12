@@ -1,0 +1,100 @@
+.item-editor-overlay {
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-editor-container {
+  background-color: #ebecf0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  width: 60%;
+  position: relative;
+}
+
+.item-editor-form {
+  margin: 20px 30px;
+}
+
+.item-editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-editor-header h2 {
+  margin: 0px;
+}
+
+.item-editor-header i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.item-editor.center {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.delete-icon:hover {
+  color: #D8382D!important
+}
+
+.close-icon:hover {
+  color: #E8B02E!important;
+}
+
+.item-editor-header i:hover {
+  color: #D8382D
+}
+
+.item-editor {
+  margin-bottom: 15px;
+}
+
+.item-editor .label {
+  margin: 0px 0px 5px 0px;
+}
+
+.item-editor textarea {
+  width: 100%;
+}
+
+.comment-editor {
+  display: flex;
+}
+
+.comment-editor button {
+  margin-left: 15px;
+}
+
+.comment {
+  margin: 0px;
+  font-size: 14px;
+}
+.timestamp {
+  margin:0px;
+  font-size: 10px;
+  color: #949B9F;
+}
+
+.comment-holder {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 10px;
+  border: 1px solid #949B9F;
+  padding: 5px;
+  border-radius: 4px;
+}

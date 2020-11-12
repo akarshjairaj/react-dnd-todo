@@ -1,0 +1,62 @@
+.dnd-group {
+  background-color: #49505e;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 250px;
+  max-height: 85vh;
+  overflow-x: auto;
+  background-color: #ebecf0;
+}
+
+.dnd-group.add {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dnd-group.add p {
+  margin-left: 5px;
+}
+
+.dnd-group.add i {
+  font-size: 20px;
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+.group-header-title {
+  margin: 0px;
+  font-weight: 700!important;
+}
+
+.group-header i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.group-header i:hover {
+  color: #D8382D;
+}
+
+.group-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.group-footer i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.group-footer i:hover {
+  color: #E8B02E;
+}

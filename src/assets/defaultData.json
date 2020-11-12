@@ -1,0 +1,44 @@
+[
+  {
+    "title": "To Do",
+    "items": [
+      { "title": "Integration Testing", "desc": "", "comments": [] },
+      { "title": "Unit Testing", "desc": "", "comments": [] }
+    ]
+  },
+  {
+    "title": "In Progress",
+    "items": [
+      { "title": "Convert CSS to SASS", "desc": "", "comments": [] },
+      { "title": "Optimize Code", "desc": "", "comments": [] }
+    ]
+  },
+  {
+    "title": "Done",
+    "items": [
+      {
+        "title": "Development",
+        "desc": "",
+        "comments": [
+          {
+            "comment": "Coded using Microsoft VS Code",
+            "timestamp": "Nov 12, 21:15"
+          },
+          { "comment": "Built using React", "timestamp": "Nov 12, 21:15" }
+        ]
+      },
+      {
+        "title": "Hosting",
+        "desc": "https://mytodo-77153.web.app/",
+        "comments": [
+          { "comment": "Hosted on firebase", "timestamp": "Nov 12, 20:36" }
+        ]
+      },
+      {
+        "title": "Push to Github",
+        "desc": "https://github.com/akarshjairaj/react-dnd-todo",
+        "comments": []
+      }
+    ]
+  }
+]

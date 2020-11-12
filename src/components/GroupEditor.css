@@ -1,0 +1,47 @@
+.group-editor-layover {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.group-editor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebecf0;
+    padding: 10px;
+    border-radius: 4px;
+    width: 20%
+}
+
+.group-editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.group-editor-header i:hover {
+    color: #E8B02E!important;
+}
+
+
+.group-editor-header h3{
+    margin: 0px;
+}
+
+.group-editor-header {
+    margin: 0px 0px 10px 0px;
+}
+
+.group-editor-button {
+    margin-top: 10px;
+}
